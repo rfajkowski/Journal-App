@@ -1,0 +1,115 @@
+html, body, #root, .displayContainer {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #11222e url("images/cubes.png");
+  color: white;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header, label {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+header {
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 40px;
+  letter-spacing: 10px;
+}
+
+p, label {
+  color: #09F69B;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+textarea, button {
+  border: none;
+}
+
+textarea {
+  display: block;
+  width: 90%;
+  height: 200px;
+  margin: 30px auto;
+  border-radius: 20px;
+  padding: 10px;
+  background: #1f3a4b;
+  color: white;
+  resize: none;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 1.1rem;
+}
+
+textarea:focus {
+  box-shadow: 0 0 30px 0 #09F69B;
+}
+
+#homeButton {
+  width: 130px;
+}
+
+main button {
+  width: 200px;
+}
+
+button {
+  height: 60px;
+  padding: 6px;
+  border-radius: 50px;
+  color: #1f3a4b;
+  background: #09F69B;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 5px #09b565;
+  position: relative;
+}
+button:hover {
+  background: #09ffa6;
+  cursor: pointer;
+}
+
+button:active {
+  top:5px;
+  box-shadow: none;
+}
+
+button:focus, textarea:focus {
+  outline: none;
+}
+
+.displayContainer {
+  display: flex;
+  align-items: center;
+}
+
+.journal {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 470px){
+  h1{
+    font-size: 3em;
+  }
+
+  textarea {
+    height: 300px;
+  }
+}
