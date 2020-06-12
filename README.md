@@ -3,7 +3,7 @@
 
 ### Author: *Rafal Fajkowski*
 
-## The Diary App
+## The Journal App
 The Diary App is a one-page application that allows the user to create an online diary, that is available to anyone who has the link. 
 The user can cycle through different days and add new entries to it.
 
